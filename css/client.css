@@ -1,0 +1,142 @@
+#consult
+{
+	position: fixed;
+	top: 153px;
+	right: 0;
+	z-index: 99999;
+}
+#consult_close
+{
+	width: 31px;
+	height: 218px;
+	background-image: url('/wp-content/plugins/wp-consultant/images/consult_close.png');
+	background-repeat: no-repeat;
+	display: block;
+	cursor: pointer;
+}
+#consult_open
+{
+	width: 31px;
+	height: 218px;
+	background-image: url('/wp-content/plugins/wp-consultant/images/consult_open.png');
+	background-repeat: no-repeat;
+	display: none;
+	cursor: pointer;
+	float: left;
+}
+#consult_block
+{
+	width: 240px;
+	height: 377px;
+	float: right;
+	display: none;
+	background-image: url('/wp-content/plugins/wp-consultant/images/consult_block.png');
+	background-repeat: no-repeat;
+}
+#consult_block input[type=text]
+{
+	border: 1px solid #bcbcbc;
+	padding: 3px;
+	float: left;
+	margin-left: 10px;
+	width: 170px;
+}
+#send_message
+{
+	width: 86px;
+	height: 27px;
+	background-image: url('/wp-content/plugins/wp-consultant/images/consult_send_message.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	margin-left: 144px;
+	margin-top: 3px;
+}
+#consult_block textarea, #message, #offline_message
+{
+	width: 208px;
+	height: 85px;
+	border: 1px solid #838383;
+	margin-left: 10px;
+	margin-top: -20px;
+	position: relative;
+	z-index: 1;
+	padding: 10px 5px 3px 5px;
+	font-size: 9pt;
+	font-family: Tahoma;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+}
+#message_block
+{
+	overflow: auto;
+	width: 198px;
+	height: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#message_offline_block
+{
+	overflow: auto;
+	width: 198px;
+	height: 210px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#message_offline_block h2
+{
+	color: #727272;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 9pt;
+	text-align: center;
+	margin: 0;
+}
+#message_offline_block h1
+{
+	color: #dc2828;
+	font-family: Arial;
+	font-size: 12pt;
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#message_offline_block p
+{
+	color: #010101;
+	font-family: Arial;
+	font-size: 11pt;
+	margin: 0;
+}
+#message_offline_block input[type=text]
+{
+	height: 28px;
+	width: 188px;
+	border: 1px solid #828282;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	margin: 5px 0px 15px 0px;
+}
+#message_zone
+{
+	width: 220px;
+	height: 237px;
+	background-image: url('/wp-content/plugins/wp-consultant/images/consult_message_block.png');
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 2;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#message_block p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 9pt;
+	font-family: Tahoma;
+}
